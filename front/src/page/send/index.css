@@ -1,0 +1,35 @@
+.send {
+  height: 100%;
+  background: #f5f5f7;
+  border-radius: 24px;
+}
+
+.send__header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+.send__header .back-button {
+  position: absolute;
+  left: 0;
+}
+
+.send__header :first-child {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.send__header :last-child {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.send__main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}

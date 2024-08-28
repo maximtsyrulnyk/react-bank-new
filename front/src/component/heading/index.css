@@ -1,0 +1,32 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.heading > div {
+  font-weight: bold;
+}
+
+.heading > p {
+  color: #939199;
+}
+
+.wellc {
+  font-size: 28px;
+  color: white;
+}
+
+.wellc + p {
+  color: white;
+}
+
+.auth {
+  font-size: 24px;
+}
+
+.private {
+  font-size: 20px;
+}

@@ -1,0 +1,65 @@
+.transaction {
+  height: 100%;
+  background: #f5f5f7;
+  border-radius: 24px;
+}
+
+.transaction__header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+.transaction__header .back-button {
+  position: absolute;
+  left: 0;
+}
+
+.transaction__header :first-child {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.transaction__header :last-child {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.transaction__main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.transaction__main > h2 {
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+}
+
+.transaction__main-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.transaction__main-content > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.transaction__main-divider {
+  height: 1px;
+  background-color: #e9e8eb;
+}
+
+.positive__sum {
+  color: green;
+}

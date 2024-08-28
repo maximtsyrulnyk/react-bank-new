@@ -1,0 +1,25 @@
+.payment__sys {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 12px;
+  align-items: center;
+  width: 353px;
+
+  transition: opacity 0.4s;
+}
+
+.payment__sys div:first-child {
+  display: flex;
+  gap: 12px;
+}
+
+.payment__sys:hover {
+  opacity: 0.7;
+}
+
+.payment__sys.disabled {
+  opacity: 0.5;
+  cursor: default;
+}

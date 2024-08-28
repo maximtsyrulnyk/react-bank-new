@@ -1,0 +1,54 @@
+.bal-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.bal-item__block {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.bal-item__block > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #f7f7f7;
+}
+.bal-item__content > div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.bal-item__content h4 {
+  font-weight: bold;
+  color: black;
+  padding-bottom: 8px;
+}
+
+.bal-item__content span {
+  color: #939199;
+  font-size: 12px;
+}
+
+.bal-item__content span:nth-last-of-type(2) {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #939199;
+}
+
+.bal-item__sum {
+  font-weight: bold;
+  color: black;
+}
+
+.positive__sum {
+  color: green;
+}

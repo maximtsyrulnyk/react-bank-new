@@ -1,0 +1,39 @@
+.wellcome {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wellcome > div:first-child {
+  padding-top: 100px;
+  background-image: url(./background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 583px;
+  border-radius: 24px;
+}
+
+.picture {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+
+.wellcome .kerfin {
+  position: absolute;
+  bottom: -260px;
+  left: 50%;
+  transform: translateX(-45%);
+}
+
+.wellcome > div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: flex-end;
+  padding-bottom: 33px;
+}

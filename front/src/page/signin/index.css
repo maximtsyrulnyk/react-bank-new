@@ -1,0 +1,23 @@
+.signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.signin__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.link__prefix {
+  width: 353px;
+}
+.link {
+  transition: opacity 0.4s;
+}
+.link:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}

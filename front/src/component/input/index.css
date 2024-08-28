@@ -1,0 +1,31 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.field__label {
+  font-size: 14px;
+}
+
+.field__input {
+  display: flex;
+  width: 353px;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid #e9e8eb;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #fff;
+}
+
+.field__input:focus {
+  border-color: #775ce5;
+}
+
+.field__input.error {
+  border-color: red;
+}
